@@ -1,0 +1,78 @@
+{
+  "_from": "react-native-android-auto@^1.0.0",
+  "_id": "react-native-android-auto@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-UUjLx/MiOJYs85U3WZ9hnWPvMR0U+VTzJb7vvcGsy45q25p4VdhznOmjHhpHqxan6DaAZI/Dhywc8DsPn0Ls9w==",
+  "_location": "/react-native-android-auto",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-android-auto@^1.0.0",
+    "name": "react-native-android-auto",
+    "escapedName": "react-native-android-auto",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-android-auto/-/react-native-android-auto-1.0.0.tgz",
+  "_shasum": "93e41242bfbbe3a6d189df71fad0680cec244aac",
+  "_spec": "react-native-android-auto@^1.0.0",
+  "_where": "/Users/anisbenbrahim/Documents/projet/spark/spark-front-react-native",
+  "author": {
+    "name": "Your Name",
+    "email": "yourname@email.com"
+  },
+  "bugs": {
+    "url": "https://github.com/github_account/react-native-android-auto/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "react-reconciler": "^0.26.1"
+  },
+  "deprecated": false,
+  "description": "Android auto integration for React native apps",
+  "devDependencies": {
+    "@types/lodash": "^4.14.165",
+    "@types/react-native": "^0.63.37",
+    "@types/react-reconciler": "^0.18.0",
+    "react": "^16.9.0",
+    "react-native": "^0.61.5",
+    "typescript": "^4.1.2"
+  },
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-android-auto.podspec"
+  ],
+  "homepage": "https://github.com/github_account/react-native-android-auto#readme",
+  "keywords": [
+    "react-native"
+  ],
+  "license": "private",
+  "licenseFilename": "LICENSE",
+  "main": "lib/index.js",
+  "name": "react-native-android-auto",
+  "peerDependencies": {
+    "react": "~16.13.1",
+    "react-native": ">=0.62.0 <1.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-android-auto.git",
+    "baseUrl": "https://github.com/github_account/react-native-android-auto"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "title": "React Native Android Auto",
+  "version": "1.0.0"
+}
